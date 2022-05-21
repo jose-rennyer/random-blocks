@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <header>
+            <h1 class="main-title">Random Blocks</h1>
+        </header>
+        <section class="content-game">
+            <canvas width="600" height="400"></canvas>
+            
+            <form id="formulario-de-blocos">
+                <fieldset class="inputs">
+                    <label>
+                        Vermelhos:
+                        <input type="number" name="vermelho"/>
+                        <span class="error-red"></span>
+                    </label>
+                    <label>
+                        Azuis:
+                        <input type="number" name="azul"/>
+                        <span class="error-blue"></span>
+                    </label>
+                    <label>
+                        Verdes:
+                        <input type="number" name="verde"/>
+                        <span class="error-green"></span>
+                    </label>
+                    <label>
+                        Rosas:
+                        <input type="number" name="rosa"/>
+                        <span class="error-pink"></span>
+                    </label>
+                </fieldset>
+                <button id="bt-verifica" class="botao">Verificar</button>
+
+                <button id="bt-random" class="botao random">Refazer Sorteio</button>
+            </form>
+                
+        </section>
+    </main>
+    <script src="script/sorteia-blocos.js"></script>
+    <script src="script/verificacao.js"></script>
+</body>
+</html>

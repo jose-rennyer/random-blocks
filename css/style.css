@@ -1,0 +1,77 @@
+*{
+    box-sizing:border-box;
+    font-family:'Koulen', arial, sans-serif;
+}
+body{
+    box-sizing:border-box;
+}
+.main{
+    width:800px;
+    background:linear-gradient(to right, #f00, #0f0, #00f, pink);
+    margin:0 auto;
+    padding:20px;
+    border:1px solid #000;
+}
+.main-title{
+    font-size:35px;
+    text-align:center;
+}
+.content-game{
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+canvas{
+    border:1px solid #000;
+}
+form{
+    width:155px;
+    margin-left:10px;
+    font-size:18px;
+}
+form label{
+    display:block;
+    margin-bottom:10px;
+}
+form input{
+    margin-top:5px;
+    display:block;
+    outline:0;
+}
+.botao{
+    color:#000;
+    font-size:20px;
+    padding:5px 10px;
+    width:100%;
+    margin-bottom:3px;
+    background-color:green;
+    color:white;
+    cursor:pointer;
+    transition:0.5s
+}
+.botao:hover{
+    background-color:#fff;
+    color:green;
+    box-shadow:2px 3px 5px #000;
+}
+.random{
+    background-color:blue;
+    color:white;
+}
+.random:hover{
+    background-color:white;
+    color:blue;
+    box-shadow:2px 3px 5px #000;
+}
+.organizador{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.error-red, .error-blue,
+.error-green, .error-pink{
+    color:red;
+    text-shadow:1px 1px 2px #000;
+    font-size:16px;
+}
