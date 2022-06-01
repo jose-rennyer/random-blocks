@@ -6,7 +6,6 @@ buttonVerifica.addEventListener("click", function(e){
     let form = document.querySelector("#formulario-de-blocos");
 
     let erros = verificaBlocos(form);
-    console.log(erros)
     if(erros.length > 0){
         limpaErros()
         for(let i = 0; i < erros.length; i++){

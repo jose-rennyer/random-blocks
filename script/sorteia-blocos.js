@@ -1,4 +1,3 @@
-console.log("olá")
 const canvas = document.querySelector("canvas");
 const caneta = canvas.getContext("2d");
 const colors = ["red", "blue", "green", "pink"]
